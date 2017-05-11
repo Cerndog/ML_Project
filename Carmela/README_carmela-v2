@@ -1,0 +1,14 @@
+- to run, execute "python carmela.py" 
+- the execution takes about 12 - 15 minutes to run
+- you can modify 2 params inside of the main function - pickNFeatures and breakoutFeatures which I current set to 6 and 14 respectively
+
+# select the number of features to pick using feature engineering
+   pickNFeatures = 6
+
+# During pre-processing, breakout the 'features' column into the most frequently mentioned features (for example, "cats allowed", "no fee", "doorman", etc.)
+   breakoutFeatures = 14
+
+Work that I still need to do:
+
+- remove outliers from 'longitudes'
+- Need to finish code to add one more feature engineering method - Principle Component Analysis
